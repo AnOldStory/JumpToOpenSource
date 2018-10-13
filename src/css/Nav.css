@@ -1,0 +1,89 @@
+/* SCROLL */
+::-webkit-scrollbar { width: 5px; }
+/* 스크롤바의 width */
+::-webkit-scrollbar-track { background-color: #f0f0f0; }
+/* 스크롤바의 전체 배경색 */
+::-webkit-scrollbar-thumb { 
+    background: linear-gradient(to bottom, #1697bf, #62b7ac); 
+}
+/* 스크롤바 색 */
+::-webkit-scrollbar-button { display: none; }
+/* 위 아래 버튼 (버튼 없애기를 함) */
+
+
+/* 책 이름 */
+.book-name{
+    text-align: center;
+    font-size: 40px;
+}
+
+.book-nav {
+    position: absolute;
+    background-color: #e6e7e5;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 300px;
+    overflow-y:auto;
+}
+
+li,ol,ul{
+    margin :0;
+    display: block;
+    padding-left: 25px;
+    text-align :left;
+    height:30px;
+    line-height: 30px;
+    color: #a6aa9c;
+}
+
+.book-nav-chapter{
+    cursor : pointer;
+    font-size: 15px;
+}
+
+.book-nav-chapter:hover {
+    color: #000000;
+    background-color: #f7d3ba;
+    border-left: 2px solid #cb3837;
+}
+
+
+.book-nav-chapter-active {
+    font-size: 20px;
+    color: #000000;
+    background-color: #f7d3ba;
+    border-left: 2px solid #cb3837;
+}
+
+.book-nav-article{
+    padding-left:50px;
+    cursor : pointer;
+    font-size: 10px;
+}
+
+.book-nav-article:hover{
+    padding-left:50px;
+    color: #000000;
+    background-color: #f7d3ba;
+    border-left: 2px solid #cb3837;
+}
+
+.book-nav-article-active{
+    padding-left:50px;
+    font-size: 13px;
+    color: #000000;
+    background-color: #f7d3ba;
+    border-left: 2px solid #cb3837;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-line{
+    height: 1px;
+    margin: 5px 7px;
+    overflow: hidden;
+    background: rgba(0,0,0,.07);
+  }

@@ -1,0 +1,32 @@
+.content{
+    margin: 0 5% 0 5%;
+    width:90%;
+    overflow-x: hidden;
+}
+
+.reply-form{
+    width: calc(100% - 14px);
+    height: 70px;
+    border : 1px #c9c9c9 solid;
+    border-radius: 10px;
+}
+
+.reply-form:focus{
+    outline: none;
+}
+
+.reply-submit{
+    color : #000000;
+    background-color: #f7d3ba;
+    border: none; 
+    border-radius: 10px;
+}
+
+.reply-submit:hover{
+    background-color: #fdb683;
+    outline: none;
+}
+
+.reply-submit:focus{
+    outline: none;
+}

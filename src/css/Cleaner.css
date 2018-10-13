@@ -1,0 +1,28 @@
+.cleaner {
+    cursor: pointer;
+}
+
+
+.cleaner-left{
+    background-color: rgba(0, 0, 0, 0);
+    border: none; 
+    position: absolute;
+    top: 50%;
+    left: 10px;
+}
+
+.cleaner-left:focus{
+    outline: none;
+}
+
+.cleaner-right{
+    background-color: rgba(0, 0, 0, 0);
+    border: none; 
+    position: absolute;
+    top:50%;
+    right: 10px;
+}
+
+.cleaner-right:focus{
+    outline: none;
+}

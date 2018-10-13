@@ -1,0 +1,16 @@
+.book-wrapper{
+    position: absolute;
+    background-color: #f5efe3;
+    width: calc(100% - 300px);
+    top: 0;
+    height: 100%;
+    left: 300px;
+    overflow-y: auto;
+}
+
+.wrap-line{
+    height: 1px;
+    margin: 5px;
+    overflow: hidden;
+    background: rgba(0,0,0,.07);
+  }
