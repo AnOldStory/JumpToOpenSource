@@ -14,7 +14,7 @@ class Iframe extends Component {
     }
 
     handleHtml(where){
-        fetch("/documents/"+where+".html").then((res) =>{
+        fetch("/JumpToOpenSource/documents/"+where+".html").then((res) =>{
             let rtn = res.text();
             return rtn;
         }).then((res) => {
