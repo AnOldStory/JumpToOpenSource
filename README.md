@@ -10,14 +10,18 @@ Description
 Installation
 ------------
 
+react로 만들어 졌으며 
 nodejs가 필요합니다.
 
 ~~~
 $ npm install
 
 $ npm start
+or
+$ npm run build
 ~~~
 
+빌드후 document 폴더를 static 폴더로 옮겨야합니다.
 
 
 
