@@ -16,12 +16,13 @@ nodejs가 필요합니다.
 ~~~
 $ npm install
 
-$ npm start
+$ npm start  ( 즉시 실행 )
 or
-$ npm run build
+$ npm run build  ( 빌드 )
+or
+$ npm run deploy ( 깃 페이지 적용 )
 ~~~
 
-빌드후 document 폴더를 static 폴더로 옮겨야합니다.
 
 
 
