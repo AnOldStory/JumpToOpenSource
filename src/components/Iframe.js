@@ -14,7 +14,7 @@ class Iframe extends Component {
     }
 
     handleHtml(where){
-        fetch("/static/documents/"+where+".html").then((res) =>{
+        fetch("JumpToOpenSource/static/documents/"+where+".html").then((res) =>{
             let rtn = res.text();
             return rtn;
         }).then((res) => {
