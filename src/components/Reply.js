@@ -12,7 +12,7 @@ class Reply extends Component {
     }
 
     componentWillReceiveProps(next){
-        if (this.props.active != next.active){
+        if (this.props.active !== next.active){
             this.setState({
                 animate:1
             })

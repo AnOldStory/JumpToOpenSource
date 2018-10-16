@@ -45,6 +45,8 @@ li,ol,ul{
     cursor : pointer;
     font-size: 15px;
     color: #a6aa9c;
+    transition: all;
+    transition-duration: 1s;
     animation-delay: 1s;
 }
 
@@ -72,6 +74,8 @@ li,ol,ul{
     cursor : pointer;
     font-size: 10px;
     color: #a6aa9c;
+    transition: all;
+    transition-duration: 1s;
     animation-delay: 1s;
 }
 
