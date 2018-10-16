@@ -15,6 +15,8 @@
 .book-name{
     text-align: center;
     font-size: 40px;
+    animation-name:spin;
+    animation-duration: 1s;
 }
 
 .book-nav {
@@ -24,7 +26,7 @@
     left: 0;
     height: 100%;
     width: 300px;
-    overflow-y:auto;
+    overflow-y: auto;
 }
 
 li,ol,ul{
@@ -34,18 +36,24 @@ li,ol,ul{
     text-align :left;
     height:30px;
     line-height: 30px;
-    color: #a6aa9c;
+    animation-name:slideUp;
+    animation-duration: 1s;
 }
 
 .book-nav-chapter{
+    animation-name: fadeInUp;
     cursor : pointer;
     font-size: 15px;
+    color: #a6aa9c;
+    animation-delay: 1s;
 }
 
 .book-nav-chapter:hover {
     color: #000000;
     background-color: #f7d3ba;
     border-left: 2px solid #cb3837;
+    transition: all;
+    transition-duration: 0.3s;
 }
 
 
@@ -54,12 +62,17 @@ li,ol,ul{
     color: #000000;
     background-color: #f7d3ba;
     border-left: 2px solid #cb3837;
+    transition: all;
+    transition-duration: 1s;
+    animation-delay: 1s;
 }
 
 .book-nav-article{
     padding-left:50px;
     cursor : pointer;
     font-size: 10px;
+    color: #a6aa9c;
+    animation-delay: 1s;
 }
 
 .book-nav-article:hover{
@@ -67,6 +80,8 @@ li,ol,ul{
     color: #000000;
     background-color: #f7d3ba;
     border-left: 2px solid #cb3837;
+    transition: all;
+    transition-duration: 0.3s;
 }
 
 .book-nav-article-active{
@@ -75,6 +90,9 @@ li,ol,ul{
     color: #000000;
     background-color: #f7d3ba;
     border-left: 2px solid #cb3837;
+    transition: all;
+    transition-duration: 1s;
+    animation-delay: 1s;
 }
 
 a{
@@ -87,3 +105,4 @@ a{
     overflow: hidden;
     background: rgba(0,0,0,.07);
   }
+

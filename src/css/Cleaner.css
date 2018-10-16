@@ -6,9 +6,15 @@
 .cleaner-left{
     background-color: rgba(0, 0, 0, 0);
     border: none; 
-    position: absolute;
+    position: fixed;
+    cursor : pointer;
     top: 50%;
-    left: 10px;
+    left: 310px;
+    opacity: 0.3;
+}
+
+.cleaner-left:hover{
+    opacity:0.7;
 }
 
 .cleaner-left:focus{
@@ -18,9 +24,15 @@
 .cleaner-right{
     background-color: rgba(0, 0, 0, 0);
     border: none; 
-    position: absolute;
+    position: fixed;
+    cursor : pointer;
     top:50%;
     right: 10px;
+    opacity: 0.3;
+}
+
+.cleaner-right:hover{
+    opacity:0.7;
 }
 
 .cleaner-right:focus{

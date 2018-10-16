@@ -4,11 +4,43 @@
     overflow-x: hidden;
 }
 
+.maintext-up{
+    animation-name: slideUp;
+    animation-duration: 1s;
+}
+
+.maintext-leftin{
+    animation-name:leftIn;
+    animation-duration: 0.25s;
+}
+
+.maintext-leftout{
+    animation-name:leftOut;
+    animation-duration: 0.25s;
+}
+
+.maintext-rightin{
+    animation-name:rightIn;
+    animation-duration: 0.25s;
+}
+
+.maintext-rightout{
+    animation-name:rightOut;
+    animation-duration: 0.25s;
+}
+
+.reply-up{
+    animation-name: slideUp;
+    animation-duration: 0.5s;
+}
+
 .reply-form{
     width: calc(100% - 14px);
     height: 70px;
     border : 1px #c9c9c9 solid;
     border-radius: 10px;
+    transition: all;
+    transition-duration: 1s;
 }
 
 .reply-form:focus{
@@ -20,6 +52,8 @@
     background-color: #f7d3ba;
     border: none; 
     border-radius: 10px;
+    transition: all;
+    transition-duration: 1s;
 }
 
 .reply-submit:hover{

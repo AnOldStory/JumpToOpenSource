@@ -47,6 +47,7 @@ class Nav extends Component {
                     <Article active={this.props.active} level={27} index="imSmall27" handle={this.props.handle}/>
                     <Article active={this.props.active} level={28} index="imSmall28" handle={this.props.handle}/>
                 <div className="nav-line"/> 
+                
             </div>
         )
     }
