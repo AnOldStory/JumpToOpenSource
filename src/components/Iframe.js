@@ -29,7 +29,7 @@ class Iframe extends Component {
         fetch("/JumpToOpenSource/documents/"+where+".html").then((res) =>{
             let rtn = res.text();
             if(res.status===200){
-                return rtn;
+                return rtn
             }
             else{
                 return null

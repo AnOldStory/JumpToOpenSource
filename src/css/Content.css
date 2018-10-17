@@ -1,7 +1,12 @@
 .content{
+    padding-top: 50px;
     margin: 0 5% 0 5%;
     width:90%;
     overflow-x: hidden;
+}
+
+.mainhead{
+    font-size: 40px;
 }
 
 .maintext-up{

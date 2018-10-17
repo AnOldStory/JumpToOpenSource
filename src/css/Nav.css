@@ -32,7 +32,7 @@
 li,ol,ul{
     margin :0;
     display: block;
-    padding-left: 25px;
+    padding-left: 15px;
     text-align :left;
     height:30px;
     line-height: 30px;
@@ -43,7 +43,7 @@ li,ol,ul{
 .book-nav-chapter{
     animation-name: fadeInUp;
     cursor : pointer;
-    font-size: 15px;
+    font-size: 20px;
     color: #a6aa9c;
     transition: all;
     transition-duration: 1s;
@@ -70,9 +70,9 @@ li,ol,ul{
 }
 
 .book-nav-article{
-    padding-left:50px;
+    padding-left:20px;
     cursor : pointer;
-    font-size: 10px;
+    font-size: 13px;
     color: #a6aa9c;
     transition: all;
     transition-duration: 1s;
@@ -80,7 +80,7 @@ li,ol,ul{
 }
 
 .book-nav-article:hover{
-    padding-left:50px;
+    padding-left:20px;
     color: #000000;
     background-color: #f7d3ba;
     border-left: 2px solid #cb3837;
@@ -89,7 +89,7 @@ li,ol,ul{
 }
 
 .book-nav-article-active{
-    padding-left:50px;
+    padding-left:20px;
     font-size: 13px;
     color: #000000;
     background-color: #f7d3ba;
@@ -108,5 +108,5 @@ a{
     margin: 5px 7px;
     overflow: hidden;
     background: rgba(0,0,0,.07);
-  }
+}
 
