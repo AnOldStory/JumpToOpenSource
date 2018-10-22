@@ -25,7 +25,6 @@ class Cleaner extends Component {
                 :
                     <div/>
                 }
-
             </div>
         );
     }

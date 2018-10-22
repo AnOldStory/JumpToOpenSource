@@ -38,3 +38,21 @@
 .cleaner-right:focus{
     outline: none;
 }
+
+.cleaner-up{
+    background-color: rgba(0, 0, 0, 0);
+    border: none; 
+    position: fixed;
+    cursor : pointer;
+    bottom: 50px;
+    right: 50px;
+    opacity: 0.3;
+}
+
+.cleaner-up:hover{
+    opacity:0.7;
+}
+
+.cleaner-up:focus{
+    outline: none;
+}

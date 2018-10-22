@@ -5,7 +5,7 @@ class Iframe extends Component {
         super(props)
         this.state= {
             response : "Loding...",
-            animate : -1
+            animate : 0
         }
         this.handleAnimate=this.handleAnimate.bind(this);
         this.handleHtml(this.props.active)
@@ -68,28 +68,30 @@ class Iframe extends Component {
 
     render() {
         return (
-            <div className= {
-                this.state.animate <= 0?
-                    (this.state.animate === -1?
-                            "maintext-up"
-                            :
-                            "maintext"
-                    )
-                    :
-                    (this.state.animate <=2 ?
-                        (this.state.animate === 1 ? 
-                            "maintext-rightout"
-                            :
-                            "maintext-leftout"
-                        ) 
-                        :
-                        (this.state.animate === 3 ? 
-                            "maintext-leftin"
-                            :
-                            "maintext-rightin"
+            <div className="mainframe">
+                <div className= {
+                    this.state.animate <= 0?
+                        (this.state.animate === -1?
+                                "maintext-up"
+                                :
+                                "maintext"
                         )
-                    )
-            } onAnimationEnd={this.handleAnimate} dangerouslySetInnerHTML={ {__html: this.state.response} }/>
+                        :
+                        (this.state.animate <=2 ?
+                            (this.state.animate === 1 ? 
+                                "maintext-rightout"
+                                :
+                                "maintext-leftout"
+                            ) 
+                            :
+                            (this.state.animate === 3 ? 
+                                "maintext-leftin"
+                                :
+                                "maintext-rightin"
+                            )
+                        )
+                } onAnimationEnd={this.handleAnimate} dangerouslySetInnerHTML={ {__html: this.state.response} }/>
+            </div>
         );
     }
 }

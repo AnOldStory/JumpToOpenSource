@@ -4,7 +4,7 @@
 ::-webkit-scrollbar-track { background-color: #f0f0f0; }
 /* 스크롤바의 전체 배경색 */
 ::-webkit-scrollbar-thumb { 
-    background: linear-gradient(to bottom, #1697bf, #62b7ac); 
+    background: linear-gradient(to bottom, #000, #e6e7e5); 
 }
 /* 스크롤바 색 */
 ::-webkit-scrollbar-button { display: none; }
@@ -13,6 +13,7 @@
 
 /* 책 이름 */
 .book-name{
+    padding:25px;
     text-align: center;
     font-size: 40px;
     animation-name:spin;
@@ -21,7 +22,7 @@
 
 .book-nav {
     position: absolute;
-    background-color: #e6e7e5;
+    background-color: #dfdfdf;
     top: 0;
     left: 0;
     height: 100%;
@@ -41,62 +42,76 @@ li,ol,ul{
 }
 
 .book-nav-chapter{
+    border-radius: 0 40px 40px 0;
     animation-name: fadeInUp;
     cursor : pointer;
     font-size: 20px;
-    color: #a6aa9c;
+    color: #a7a7a7;
     transition: all;
     transition-duration: 1s;
     animation-delay: 1s;
 }
 
 .book-nav-chapter:hover {
+    border-radius: 0 40px 40px 0;
     color: #000000;
     background-color: #f7d3ba;
-    border-left: 2px solid #cb3837;
+    margin-right: 15px;
+    border-left: 4px solid #cb3837;
     transition: all;
     transition-duration: 0.3s;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
 }
 
 
 .book-nav-chapter-active {
+    border-radius: 0 40px 40px 0;
     font-size: 20px;
     color: #000000;
     background-color: #f7d3ba;
-    border-left: 2px solid #cb3837;
+    margin-right: 15px;
+    border-left: 4px solid #cb3837;
     transition: all;
     transition-duration: 1s;
     animation-delay: 1s;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
 }
 
 .book-nav-article{
+    border-radius: 0 40px 40px 0;
     padding-left:20px;
     cursor : pointer;
     font-size: 13px;
-    color: #a6aa9c;
+    color: #a7a7a7;
     transition: all;
     transition-duration: 1s;
     animation-delay: 1s;
 }
 
 .book-nav-article:hover{
+    border-radius: 0 40px 40px 0;
     padding-left:20px;
     color: #000000;
     background-color: #f7d3ba;
-    border-left: 2px solid #cb3837;
+    margin-right: 15px;
+    border-left: 4px solid #cb3837;
     transition: all;
     transition-duration: 0.3s;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
 }
 
 .book-nav-article-active{
+    border-radius: 0 40px 40px 0;
     padding-left:20px;
     font-size: 13px;
     color: #000000;
     background-color: #f7d3ba;
-    border-left: 2px solid #cb3837;
+    margin-right: 15px;
+    border-left: 4px solid #cb3837;
     transition: all;
     transition-duration: 1s;
     animation-delay: 1s;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
 }
 
 a{
@@ -105,7 +120,7 @@ a{
 
 .nav-line{
     height: 1px;
-    margin: 5px 7px;
+    margin: 0 30px;
     overflow: hidden;
     background: rgba(0,0,0,.07);
 }

@@ -34,7 +34,6 @@ class Reply extends Component {
                 <button className="reply-submit" type="submit">댓글 올리기</button>
                 <br/>
                 <br/>
-                <div className="wrap-line"/> 
             </div>
         );
     }

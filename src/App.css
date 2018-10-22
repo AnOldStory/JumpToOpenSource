@@ -1,10 +1,10 @@
 /* SCROLL */
 ::-webkit-scrollbar { width: 5px; }
 /* 스크롤바의 width */
-::-webkit-scrollbar-track { background-color: #f0f0f0; }
+::-webkit-scrollbar-track { background-color :#f0f0f0; }
 /* 스크롤바의 전체 배경색 */
 ::-webkit-scrollbar-thumb { 
-    background: linear-gradient(to bottom, #1697bf, #62b7ac); 
+    background: linear-gradient(to bottom, #a1a1a1, #a1a1a1); 
 }
 /* 스크롤바 색 */
 ::-webkit-scrollbar-button { display: none; }
@@ -19,12 +19,24 @@
   }
 }
 
+@keyframes sizeUp{
+  from{
+    transform:scale(1);
+  }
+  to{
+    transform:scale(10);
+  }
+}
+
 @keyframes spin {
   from {
-    transform: rotate(0deg);
+    transform: scale(1) rotate(0deg);
+  }
+  50%{
+    transform: scale(1.5) rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: scale(1)rotate(0deg);
   }
 }
 

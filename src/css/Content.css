@@ -1,35 +1,69 @@
 .content{
     padding-top: 50px;
-    margin: 0 5% 0 5%;
-    width:90%;
-    overflow-x: hidden;
+    padding : 5%;
+    width : 90%;
+    overflow-x : hidden;
+}
+
+.mainframe{
+    text-align: justify;
+    word-break: keep-all;
+    transition: all;
+    transition-duration: 1s;
 }
 
 .mainhead{
     font-size: 40px;
 }
 
+.maintext{
+    padding:30px;
+    box-shadow: 3px 2px 3px 2px rgba(0,0,0,0.16), 3px 2px 5px 0 rgba(0,0,0,0.12);
+    border-radius: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
 .maintext-up{
+    padding:30px;
+    box-shadow: 3px 2px 3px 2px rgba(0,0,0,0.16), 3px 2px 5px 0 rgba(0,0,0,0.12);
+    border-radius: 10px;
+    background-color: #fff;
     animation-name: slideUp;
     animation-duration: 1s;
 }
 
 .maintext-leftin{
+    padding:30px;
+    box-shadow: 3px 2px 3px 2px rgba(0,0,0,0.16), 3px 2px 5px 0 rgba(0,0,0,0.12);
+    border-radius: 10px;
+    background-color: #fff;
     animation-name:leftIn;
     animation-duration: 0.25s;
 }
 
 .maintext-leftout{
+    padding:30px;
+    box-shadow: 3px 2px 3px 2px rgba(0,0,0,0.16), 3px 2px 5px 0 rgba(0,0,0,0.12);
+    border-radius: 10px;
+    background-color: #fff;
     animation-name:leftOut;
     animation-duration: 0.25s;
 }
 
 .maintext-rightin{
+    padding:30px;
+    box-shadow: 3px 2px 3px 2px rgba(0,0,0,0.16), 3px 2px 5px 0 rgba(0,0,0,0.12);
+    border-radius: 10px;
+    background-color: #fff;
     animation-name:rightIn;
     animation-duration: 0.25s;
 }
 
 .maintext-rightout{
+    padding:30px;
+    box-shadow: 3px 2px 3px 2px rgba(0,0,0,0.16), 3px 2px 5px 0 rgba(0,0,0,0.12);
+    border-radius: 10px;
+    background-color: #fff;
     animation-name:rightOut;
     animation-duration: 0.25s;
 }
@@ -40,6 +74,7 @@
 }
 
 .reply-form{
+    box-shadow: 3px 2px 3px 2px rgba(0,0,0,0.16), 3px 2px 5px 0 rgba(0,0,0,0.12);
     width: calc(100% - 14px);
     height: 70px;
     border : 1px #c9c9c9 solid;
@@ -53,6 +88,7 @@
 }
 
 .reply-submit{
+    box-shadow: 3px 2px 3px 2px rgba(0,0,0,0.16), 3px 2px 5px 0 rgba(0,0,0,0.12);
     color : #000000;
     background-color: #f7d3ba;
     border: none; 
@@ -62,6 +98,7 @@
 }
 
 .reply-submit:hover{
+    box-shadow: 3px 2px 3px 2px rgba(0,0,0,0.16), 3px 2px 5px 0 rgba(0,0,0,0.12);
     background-color: #fdb683;
     outline: none;
 }
