@@ -18,8 +18,8 @@ class Cleaner extends Component {
                     <div/>
                 }
                
-                {this.props.active<30?
-                    <button className="cleaner-right" onClick={this.props.handle.bind(null,this.props.active<30?this.props.active+1:-1)}>
+                {this.props.active<31?
+                    <button className="cleaner-right" onClick={this.props.handle.bind(null,this.props.active<31?this.props.active+1:-1)}>
                         <FontAwesomeIcon size="3x" icon="angle-right" />
                     </button>
                 :

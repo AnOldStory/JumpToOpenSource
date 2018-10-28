@@ -57,7 +57,8 @@ class Nav extends Component {
 
                 <Chapter active={this.props.active} level={29} index="6. 부록" handle={this.props.handle}/>
                     <Article active={this.props.active} level={30} index="라이선스" handle={this.props.handle}/>
-                <div className="nav-line"/> 
+                    <Article active={this.props.active} level={31} index="출처" handle={this.props.handle} />
+                <div className="nav-line"/>  
             </div>
         )
     }
