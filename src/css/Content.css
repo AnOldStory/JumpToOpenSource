@@ -1,3 +1,13 @@
+.maintext > img{
+    width: calc(70% - 60px);
+}
+
+.rightimg > img{
+    width: 300px;
+    float: right;
+    margin: 5px 10px;
+}
+
 .content{
     padding-top: 50px;
     padding : 5%;
@@ -22,6 +32,7 @@
     border-radius: 10px;
     background-color: #fff;
     border-radius: 5px;
+    min-height: 500px;
 }
 .maintext-up{
     padding:30px;
@@ -30,6 +41,7 @@
     background-color: #fff;
     animation-name: slideUp;
     animation-duration: 1s;
+    min-height: 500px;
 }
 
 .maintext-leftin{
@@ -39,6 +51,7 @@
     background-color: #fff;
     animation-name:leftIn;
     animation-duration: 0.25s;
+    min-height: 500px;
 }
 
 .maintext-leftout{
@@ -48,6 +61,7 @@
     background-color: #fff;
     animation-name:leftOut;
     animation-duration: 0.25s;
+    min-height: 500px;
 }
 
 .maintext-rightin{
@@ -57,6 +71,7 @@
     background-color: #fff;
     animation-name:rightIn;
     animation-duration: 0.25s;
+    min-height: 500px;
 }
 
 .maintext-rightout{
@@ -66,6 +81,7 @@
     background-color: #fff;
     animation-name:rightOut;
     animation-duration: 0.25s;
+    min-height: 500px;
 }
 
 .reply-up{

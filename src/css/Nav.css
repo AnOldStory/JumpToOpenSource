@@ -18,6 +18,8 @@
     font-size: 40px;
     animation-name:spin;
     animation-duration: 1s;
+    height:80px;
+    width:250px;
 }
 
 .book-nav {
@@ -28,6 +30,7 @@
     height: 100%;
     width: 300px;
     overflow-y: auto;
+    overflow-x: hidden;
 }
 
 li,ol,ul{

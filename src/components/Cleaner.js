@@ -11,15 +11,15 @@ class Cleaner extends Component {
         return (
             <div className="cleaner">
                 {this.props.active>-1?
-                    <button className="cleaner-left" onClick={this.props.handle.bind(null,this.props.active>-1?this.props.active-1:0)}>
+                    <button className="cleaner-left" onClick={this.props.handle.bind(null,this.props.active>-1?this.props.active-1:-1)}>
                         <FontAwesomeIcon size="3x" icon="angle-left" />
                     </button>
                 :
                     <div/>
                 }
                
-                {this.props.active<33?
-                    <button className="cleaner-right" onClick={this.props.handle.bind(null,this.props.active<33?this.props.active+1:0)}>
+                {this.props.active<30?
+                    <button className="cleaner-right" onClick={this.props.handle.bind(null,this.props.active<30?this.props.active+1:-1)}>
                         <FontAwesomeIcon size="3x" icon="angle-right" />
                     </button>
                 :

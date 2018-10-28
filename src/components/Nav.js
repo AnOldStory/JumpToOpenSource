@@ -50,14 +50,13 @@ class Nav extends Component {
                     <Article active={this.props.active} level={25} index="&nbsp;&nbsp;&nbsp;&nbsp;병합 (Merge)" handle={this.props.handle}/>
                     <Article active={this.props.active} level={26} index="GitKraken을 이용한 git 사용" handle={this.props.handle}/>
                     <Article active={this.props.active} level={27} index="Git 관련 웹 기반 솔루션 " handle={this.props.handle}/>
-                    <Article active={this.props.active} level={28} index="마이크로 소프트의 Github인수" handle={this.props.handle}/>
                 <div className="nav-line"/> 
                 
-                <Chapter active={this.props.active} level={30} index="5. 오픈소스의 전망" handle={this.props.handle}/>
+                <Chapter active={this.props.active} level={28} index="5. 오픈소스의 전망" handle={this.props.handle}/>
                 <div className="nav-line"/> 
 
-                <Chapter active={this.props.active} level={31} index="6. 부록" handle={this.props.handle}/>
-                    <Article active={this.props.active} level={32} index="라이선스" handle={this.props.handle}/>
+                <Chapter active={this.props.active} level={29} index="6. 부록" handle={this.props.handle}/>
+                    <Article active={this.props.active} level={30} index="라이선스" handle={this.props.handle}/>
                 <div className="nav-line"/> 
             </div>
         )
