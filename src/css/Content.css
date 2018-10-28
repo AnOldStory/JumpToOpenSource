@@ -1,4 +1,22 @@
-.mainframe > img{
+.maintext > img{
+    width: calc(70% - 60px);
+}
+
+.maintext-up > img{
+    width: calc(70% - 60px);
+}
+.maintext-leftin > img{
+    width: calc(70% - 60px);
+}
+.maintext-leftout > img{
+    width: calc(70% - 60px);
+}
+
+.maintext-rightin > img{
+    width: calc(70% - 60px);
+}
+
+.maintext-rightout > img{
     width: calc(70% - 60px);
 }
 
