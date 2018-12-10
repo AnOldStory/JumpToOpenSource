@@ -10,8 +10,7 @@ Description
 Installation
 ------------
 
-react로 만들어 졌으며 
-nodejs가 필요합니다.
+react로 만들어졌습니다.
 
 ~~~
 $ npm install
