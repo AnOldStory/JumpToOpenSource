@@ -42,6 +42,9 @@
 
 .mainhead{
     font-size: 40px;
+    border-left: 2px solid #cb3837;
+    padding-left: 20px;
+    line-height: normal;
 }
 
 .maintext{
@@ -50,6 +53,7 @@
     border-radius: 10px;
     background-color: #fff;
     border-radius: 5px;
+    line-height: 30px;
     min-height: 500px;
 }
 .maintext-up{
@@ -59,6 +63,7 @@
     background-color: #fff;
     animation-name: slideUp;
     animation-duration: 1s;
+    line-height: 30px;
     min-height: 500px;
 }
 
@@ -69,6 +74,7 @@
     background-color: #fff;
     animation-name:leftIn;
     animation-duration: 0.25s;
+    line-height: 30px;
     min-height: 500px;
 }
 
@@ -79,6 +85,7 @@
     background-color: #fff;
     animation-name:leftOut;
     animation-duration: 0.25s;
+    line-height: 30px;
     min-height: 500px;
 }
 
@@ -89,6 +96,7 @@
     background-color: #fff;
     animation-name:rightIn;
     animation-duration: 0.25s;
+    line-height: 30px;
     min-height: 500px;
 }
 
@@ -99,6 +107,7 @@
     background-color: #fff;
     animation-name:rightOut;
     animation-duration: 0.25s;
+    line-height: 30px;
     min-height: 500px;
 }
 
